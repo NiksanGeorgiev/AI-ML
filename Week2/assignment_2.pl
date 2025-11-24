@@ -88,3 +88,5 @@ no_mask(Activity, Person) :- activity(Activity), person(Person), personal_mask_e
 
 % 6. If we want to address the specific conflict mentioned in the exercise description, we can add the personal_mask_exception to the wear_mask rule for activities if we know for a fact personal_mask_exception is valid for any activity. 
 % If we want to address all possible conflicts, then we would want fully work out all possible cases for wear_mask for example. Given the nature of the two statements, it is expected that one is equal to the negation of the other, so by ensuring wear_mask covers all cases, we can simply use negation to determine no_mask.
+%
+% asdfasdf
